@@ -3,7 +3,8 @@ angular.module("friendsList",[])
   //name of person
   $scope.corName = 'List of';
   $scope.setName = function(name){
-    $scope.corName = name+"'s";
+  $scope.corName = name+"'s";
+  $scope.name = '';
   };
  //array of friends
  $scope.friends = ['Jordyn', 'Ryan', 'Chelsey'];
